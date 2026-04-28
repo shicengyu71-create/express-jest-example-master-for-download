@@ -29,3 +29,5 @@ jobs:
         with:
           name: express-jest-coverage-report # 命名关联项目
           path: ./coverage # Jest 默认覆盖率报告目录（该项目通用）
+
+          # 新增：上传覆盖率报告为 Artifact（方便下载）
